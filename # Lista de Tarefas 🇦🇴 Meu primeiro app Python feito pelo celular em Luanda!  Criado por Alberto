@@ -1,0 +1,10 @@
+tarefas = []
+tarefas.append("Estudar Python")
+tarefas.append("Praticar no GitHub")
+tarefas.append("Criar novo projeto")
+
+print("--- MINHA LISTA DE TAREFAS ---")
+for i, tarefa in enumerate(tarefas, 1):
+    print(f"{i}. {tarefa}")
+
+print("\nTotal de tarefas:", len(tarefas))
